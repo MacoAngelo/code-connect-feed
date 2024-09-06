@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;0,500;1,100&display=swap");
+
+:root {
+  --verde-destaque: #81fe88;
+  --verde-pastel: #bfffc3;
+  --verde-petroleo: #123e35;
+  --grafite: #01080e;
+  --cinza-escuro: #171d1f;
+  --cinza: #3e3e3e;
+  --cinza-medio: #888888;
+  --cinza-claro: #bcbcbc;
+  --off-white: #e1e1e1;
+  --branco: #ffffff;
+
+  --fonte-prompt: "Prompt", sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--grafite);
+  font-family: var(--fonte-prompt);
+}

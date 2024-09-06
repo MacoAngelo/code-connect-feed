@@ -1,0 +1,22 @@
+.container-ordenacao {
+  margin-top: 3.8em;
+  margin-bottom: 2em;
+}
+
+.container-ordenacao ul {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  list-style-type: none;
+}
+
+.link__ordenacao {
+  color: var(--cinza-medio);
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.link__ordenacao--ativo {
+  color: var(--verde-destaque);
+  text-decoration: underline;
+}
